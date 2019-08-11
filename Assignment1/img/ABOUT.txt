@@ -1,0 +1,6 @@
+This image is based on https://commons.wikimedia.org/wiki/File:Basic_roulette_wheel.svg
+The original was licensed under Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+
+The provided file Basic_roulette_wheel_1024x1024.png is a modification by Caspar to replace the duplicated 35 with a 25 
+in the correct position and is the file that should used for this assignment!
+This file is provided under the original license

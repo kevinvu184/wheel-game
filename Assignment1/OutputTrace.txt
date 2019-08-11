@@ -1,0 +1,290 @@
+
+EXPECTED:
+protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException
+protected void finalize() throws java.lang.Throwable
+public boolean equals(java.lang.Object)
+public boolean placeBet(model.interfaces.Player,int,model.enumeration.BetType)
+public boolean removeGameEngineCallback(view.interfaces.GameEngineCallback)
+public boolean removePlayer(model.interfaces.Player)
+public final native java.lang.Class<?> getClass()
+public final native void notify()
+public final native void notifyAll()
+public final native void wait(long) throws java.lang.InterruptedException
+public final void wait() throws java.lang.InterruptedException
+public final void wait(long,int) throws java.lang.InterruptedException
+public java.lang.String toString()
+public java.util.Collection<model.interfaces.Player> getAllPlayers()
+public java.util.Collection<model.interfaces.Slot> getWheelSlots()
+public model.interfaces.Player getPlayer(java.lang.String)
+public void addGameEngineCallback(view.interfaces.GameEngineCallback)
+public void addPlayer(model.interfaces.Player)
+public void calculateResult(model.interfaces.Slot)
+public void spin(int,int,int)
+
+ACTUAL:
+protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException
+protected void finalize() throws java.lang.Throwable
+public boolean equals(java.lang.Object)
+public boolean placeBet(model.interfaces.Player,int,model.enumeration.BetType)
+public boolean removeGameEngineCallback(view.interfaces.GameEngineCallback)
+public boolean removePlayer(model.interfaces.Player)
+public final native java.lang.Class<?> getClass()
+public final native void notify()
+public final native void notifyAll()
+public final native void wait(long) throws java.lang.InterruptedException
+public final void wait() throws java.lang.InterruptedException
+public final void wait(long,int) throws java.lang.InterruptedException
+public java.lang.String toString()
+public java.util.Collection<model.interfaces.Player> getAllPlayers()
+public java.util.Collection<model.interfaces.Slot> getWheelSlots()
+public model.interfaces.Player getPlayer(java.lang.String)
+public void addGameEngineCallback(view.interfaces.GameEngineCallback)
+public void addPlayer(model.interfaces.Player)
+public void calculateResult(model.interfaces.Slot)
+public void spin(int,int,int)
+
+VALIDATION RESULT for model.GameEngineImpl: PASSED
+
+EXPECTED:
+protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException
+protected void finalize() throws java.lang.Throwable
+public boolean equals(java.lang.Object)
+public final native java.lang.Class<?> getClass()
+public final native void notify()
+public final native void notifyAll()
+public final native void wait(long) throws java.lang.InterruptedException
+public final void wait() throws java.lang.InterruptedException
+public final void wait(long,int) throws java.lang.InterruptedException
+public java.lang.String toString()
+public void nextSlot(model.interfaces.Slot,model.interfaces.GameEngine)
+public void result(model.interfaces.Slot,model.interfaces.GameEngine)
+
+ACTUAL:
+protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException
+protected void finalize() throws java.lang.Throwable
+public boolean equals(java.lang.Object)
+public final native java.lang.Class<?> getClass()
+public final native void notify()
+public final native void notifyAll()
+public final native void wait(long) throws java.lang.InterruptedException
+public final void wait() throws java.lang.InterruptedException
+public final void wait(long,int) throws java.lang.InterruptedException
+public java.lang.String toString()
+public void nextSlot(model.interfaces.Slot,model.interfaces.GameEngine)
+public void result(model.interfaces.Slot,model.interfaces.GameEngine)
+
+VALIDATION RESULT for view.GameEngineCallbackImpl: PASSED
+
+EXPECTED:
+protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException
+protected void finalize() throws java.lang.Throwable
+public boolean equals(java.lang.Object)
+public boolean equals(model.interfaces.Slot)
+public final native java.lang.Class<?> getClass()
+public final native void notify()
+public final native void notifyAll()
+public final native void wait(long) throws java.lang.InterruptedException
+public final void wait() throws java.lang.InterruptedException
+public final void wait(long,int) throws java.lang.InterruptedException
+public int getNumber()
+public int getPosition()
+public java.lang.String toString()
+public model.enumeration.Color getColor()
+
+ACTUAL:
+protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException
+protected void finalize() throws java.lang.Throwable
+public boolean equals(java.lang.Object)
+public boolean equals(model.interfaces.Slot)
+public final native java.lang.Class<?> getClass()
+public final native void notify()
+public final native void notifyAll()
+public final native void wait(long) throws java.lang.InterruptedException
+public final void wait() throws java.lang.InterruptedException
+public final void wait(long,int) throws java.lang.InterruptedException
+public int getNumber()
+public int getPosition()
+public java.lang.String toString()
+public model.enumeration.Color getColor()
+
+VALIDATION RESULT for model.SlotImpl: PASSED
+
+EXPECTED:
+protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException
+protected void finalize() throws java.lang.Throwable
+public boolean equals(java.lang.Object)
+public boolean setBet(int)
+public final native java.lang.Class<?> getClass()
+public final native void notify()
+public final native void notifyAll()
+public final native void wait(long) throws java.lang.InterruptedException
+public final void wait() throws java.lang.InterruptedException
+public final void wait(long,int) throws java.lang.InterruptedException
+public int getBet()
+public int getPoints()
+public java.lang.String getPlayerId()
+public java.lang.String getPlayerName()
+public java.lang.String toString()
+public model.enumeration.BetType getBetType()
+public void resetBet()
+public void setBetType(model.enumeration.BetType)
+public void setPlayerName(java.lang.String)
+public void setPoints(int)
+
+ACTUAL:
+protected native java.lang.Object clone() throws java.lang.CloneNotSupportedException
+protected void finalize() throws java.lang.Throwable
+public boolean equals(java.lang.Object)
+public boolean setBet(int)
+public final native java.lang.Class<?> getClass()
+public final native void notify()
+public final native void notifyAll()
+public final native void wait(long) throws java.lang.InterruptedException
+public final void wait() throws java.lang.InterruptedException
+public final void wait(long,int) throws java.lang.InterruptedException
+public int getBet()
+public int getPoints()
+public java.lang.String getPlayerId()
+public java.lang.String getPlayerName()
+public java.lang.String toString()
+public model.enumeration.BetType getBetType()
+public void resetBet()
+public void setBetType(model.enumeration.BetType)
+public void setPlayerName(java.lang.String)
+public void setPoints(int)
+
+VALIDATION RESULT for model.SimplePlayer: PASSED
+
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: LOGGING WHEEL DATA CREATED BY GameEngineImpl
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 0, Color: Green00, Number: 0
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 1, Color: Red, Number: 27
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 2, Color: Black, Number: 10
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 3, Color: Red, Number: 25
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 4, Color: Black, Number: 29
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 5, Color: Red, Number: 12
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 6, Color: Black, Number: 8
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 7, Color: Red, Number: 19
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 8, Color: Black, Number: 31
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 9, Color: Red, Number: 18
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 10, Color: Black, Number: 6
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 11, Color: Red, Number: 21
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 12, Color: Black, Number: 33
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 13, Color: Red, Number: 16
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 14, Color: Black, Number: 4
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 15, Color: Red, Number: 23
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 16, Color: Black, Number: 35
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 17, Color: Red, Number: 14
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 18, Color: Black, Number: 2
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 19, Color: Green0, Number: 0
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 20, Color: Black, Number: 28
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 21, Color: Red, Number: 9
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 22, Color: Black, Number: 26
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 23, Color: Red, Number: 30
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 24, Color: Black, Number: 11
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 25, Color: Red, Number: 7
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 26, Color: Black, Number: 20
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 27, Color: Red, Number: 32
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 28, Color: Black, Number: 17
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 29, Color: Red, Number: 5
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 30, Color: Black, Number: 22
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 31, Color: Red, Number: 34
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 32, Color: Black, Number: 15
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 33, Color: Red, Number: 3
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 34, Color: Black, Number: 24
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 35, Color: Red, Number: 36
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 36, Color: Black, Number: 13
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: Position: 37, Color: Red, Number: 1
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient logWheel
+INFO: END WHEEL LOG
+
+Feb. 21, 2019 10:16:16 AM client.SimpleTestClient main
+INFO: SPINNING ...
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 1, Color: Red, Number: 27
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 2, Color: Black, Number: 10
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 3, Color: Red, Number: 25
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 4, Color: Black, Number: 29
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 5, Color: Red, Number: 12
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 6, Color: Black, Number: 8
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 7, Color: Red, Number: 19
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 8, Color: Black, Number: 31
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 9, Color: Red, Number: 18
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 10, Color: Black, Number: 6
+Feb. 21, 2019 10:16:16 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 11, Color: Red, Number: 21
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 12, Color: Black, Number: 33
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 13, Color: Red, Number: 16
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 14, Color: Black, Number: 4
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 15, Color: Red, Number: 23
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 16, Color: Black, Number: 35
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 17, Color: Red, Number: 14
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 18, Color: Black, Number: 2
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 19, Color: Green0, Number: 0
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl nextSlot
+FINE: Next slot: Position: 20, Color: Black, Number: 28
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl result
+INFO: RESULT=Position: 21, Color: Red, Number: 9
+
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl result
+INFO: FINAL PLAYER POINT BALANCES
+Feb. 21, 2019 10:16:17 AM view.GameEngineCallbackImpl result
+INFO: 
+Player: id=1, name=Come In Spinner, bet=100, betType=RED, points=1100
+Player: id=2, name=The Loser, bet=100, betType=BLACK, points=650
+Player: id=3, name=The Dabbler, bet=100, betType=ZEROS, points=400
