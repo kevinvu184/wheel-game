@@ -15,5 +15,5 @@ RMIT-FP Semester 1 2019
 ![Structure](./pic/pic2.png)
 ### Short Demo
 ![Demo0](./pic/pic1.png)
-![Demo1](./pic/video1.mp4)
+![Demo1](./pic/video1.gif)
 ![Demo2](https://media.giphy.com/media/LT6avmj6Zh0RwD90TW/giphy.gif)
